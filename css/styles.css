@@ -81,7 +81,8 @@ svg {
 /* The typewriter cursor effect */
 
 @keyframes blink-caret {
-  from, to {
+  from,
+  to {
     border-color: transparent
   }
   50% {
@@ -109,7 +110,8 @@ svg {
   font-size: 12px;
 }
 
-.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
   outline: none;
 }
 
@@ -174,7 +176,9 @@ h2 {
   border-color: white;
   text-align: center;
   font-size: 16px;
+  
 }
+
 h1 {
   padding-right: 180px;
 }

@@ -288,40 +288,44 @@
                         <option>Guardians Of The Galaxy</option>
                       </select>
                     </div>
-                    <div class="form-group">
-                      <label for="new-time-range">Time:</label>
-                      <select id="timelist" onchange="timeRange()">
-                        <option>08:00 - 14:30</option>
-                        <option>15.00 - 22.00</option>
+                    <form action="https://formspree.io/christinewasike22@gmail.com" method="POST">
 
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <label for="new-age-range">Type:</label>
-                      <select id="agelist" onchange="ageRange()">
-                        <option>Two D</option>
-                        <option>Three D</option>
+                      <div class="form-group">
+                        <label for="new-time-range">Time:</label>
+                        <select id="timelist" onchange="timeRange()" name="time">
+                          <option>08:00 - 14:30</option>
+                          <option>15.00 - 22.00</option>
+                        </select>
+                      </div>
 
+                      <div class="form-group">
+                        <label for="new-age-range">Type:</label>
+                        <select id="agelist" onchange="ageRange()" name="type">
+                          <option>Two D</option>
+                          <option>Three D</option>
+                        </select>
+                      </div>
 
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <label for="new-age-range">Payment:</label>
-                      <select id="agelist" onchange="ageRange()">
-                        <option>M-pesa</option>
-                        <option>Paypal</option>
-                        <option>Airtel money</option>
-                        <option>Visa</option>
-                      </select>
-                    </div>
-<!-- 
+                      <div class="form-group">
+                        <label for="new-age-range">Payment:</label>
+                        <select id="agelist" onchange="ageRange()" name="cost">
+                          <option>M-pesa</option>
+                          <option>Paypal</option>
+                          <option>Airtel money</option>
+                          <option>Visa</option>
+                        </select>
+                      </div>
+
+                      <button type="submit">Submit</button>
+                    </form>
+                    <!-- 
                     <div class="form-group">
                       <label class="sr-only" for="">Your email</label>
                       <input type="email" name="email" class="form-control" id="" placeholder="Email">
                     </div> -->
 
                     <a href="#ticket">
-                      <button onclick="toggle()" type="button" class="btn btn-primary" id="button">Submit</button>
+                      <button onclick="toggle()" type="submit" class="btn btn-primary" id="button">View Ticket</button>
                     </a>
                   </form>
                 </div>
